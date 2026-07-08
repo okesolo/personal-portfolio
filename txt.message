@@ -1,0 +1,259 @@
+# Tree-of-Thought Prompt: One-Page Personal Portfolio Website
+
+## Role
+
+You are a Senior Frontend Engineer, Senior UI/UX Designer, Motion Designer, Accessibility Specialist, and Prompt Engineer.
+
+Your task is to design and build a modern, premium-quality, one-page personal portfolio website using **HTML5 and Tailwind CSS only**.
+
+Do **not** use JavaScript frameworks or external CSS files. Assume Tailwind CLI is already configured.
+
+Instead of producing the final code immediately, work through the project in clearly defined phases. At the end of each phase, evaluate the result and improve it before moving to the next phase.
+
+---
+
+## Objective
+
+Create a highly polished, responsive, animated one-page portfolio website that feels like a premium developer portfolio.
+
+The website should emphasize:
+
+* Clean design
+* Excellent spacing
+* Strong visual hierarchy
+* Smooth scrolling
+* Elegant animations
+* Responsive layout
+* Accessibility
+* Reusable code
+* Professional presentation
+
+The design should look impressive enough for recruiters, clients, and instructors.
+
+---
+
+## Phase 1 – Information Architecture
+
+First determine the best page structure.
+
+The website should contain:
+
+* Sticky Navigation
+* Hero Section
+* About Me
+* Skills
+* Projects
+* Prompt Engineering Process
+* Resume Section
+* Contact Section
+* Sticky Footer
+
+After deciding the structure, verify that every assignment requirement has a dedicated section.
+
+---
+
+## Phase 2 – UI/UX Planning
+
+Design the visual experience before writing code.
+
+Choose:
+
+* Typography hierarchy
+* Color palette
+* Spacing system
+* Border radius
+* Shadows
+* Card styles
+* Hover effects
+* Button styles
+* Responsive grid layout
+* Mobile-first design
+
+Evaluate whether the interface feels modern, premium, and uncluttered.
+
+If not, refine the design before proceeding.
+
+
+Hero Section
+
+Design an engaging hero section.
+
+Include:
+
+* Professional portrait
+* Name
+* Professional title
+* Short introduction
+* Download ATS Resume button
+* View Projects button
+* Social icons
+
+Ensure the hero has a strong visual hierarchy.
+
+Add subtle entrance animations.
+
+
+Navigation
+
+Create a sticky navigation bar.
+
+Requirements:
+
+* Logo on the left
+* Navigation links
+* Mobile-friendly layout
+* Smooth scrolling
+* Hover animations
+* Sticky while scrolling
+* Active-state styling
+
+Review whether the navigation remains responsive. 
+
+Projects Section
+
+Create attractive project cards.
+
+Each card must include:
+
+Project Title
+
+Problem Statement
+
+Design Process
+
+Prompt Engineering
+
+Development Process
+
+Technologies Used
+
+Final Outcome
+
+GitHub Link
+
+Live Demo Link
+
+Each card should include:
+
+* Hover lift effect
+* Smooth shadow transition
+* Rounded corners
+* Consistent spacing
+
+Evaluate readability and consistency.
+
+
+
+ Resume Section
+
+Include:
+
+* ATS Resume preview
+* Download Resume button
+* Professional summary
+* Technical skills
+
+Ensure the Resume button is visually prominent.
+
+---
+
+## Phase 8 – Contact Section
+
+Include:
+
+* Email
+* Phone
+* GitHub
+* LinkedIn
+* X (Twitter)
+
+Design the section with clean cards and subtle hover animations.
+
+---
+
+## Phase 9 – Motion Design
+
+Use only CSS/Tailwind animations.
+
+Include tasteful animations such as:
+
+* Fade-in
+* Slide-up
+* Scale-in
+* Hover elevation
+* Button ripple-style illusion using CSS
+* Smooth transitions
+* Animated underline on navigation links
+* Floating profile image
+* Soft glowing buttons
+* Gradient transitions
+
+Animations should feel smooth and professional.
+
+Avoid excessive movement.
+
+---
+
+## Phase 10 – Accessibility Review
+
+Check:
+
+* Semantic HTML
+* Proper heading hierarchy
+* Sufficient color contrast
+* Alt text for images
+* Keyboard navigation
+* Visible focus states
+* Accessible buttons
+
+Improve any weak areas.
+
+---
+
+## Phase 11 – Performance Review
+
+Optimize for:
+
+* Fast loading
+* Minimal HTML
+* Reusable Tailwind utility classes
+* Responsive images
+* Clean file organization
+
+Remove unnecessary markup.
+
+---
+
+## Phase 12 – Code Quality
+
+Before generating the final code:
+
+* Add clear HTML comments for every major section.
+* Keep the code modular and easy to read.
+* Use consistent indentation.
+* Avoid duplicated code.
+* Group related Tailwind classes logically.
+
+---
+
+## Final Validation Checklist
+
+Verify that the final portfolio includes:
+✓ Sticky navigation
+✓ Smooth scrolling
+✓ Sticky footer
+✓ Responsive design
+✓ Personal photograph
+✓ Hero section
+✓ ATS Resume download button
+✓ Multiple project cards
+✓ Prompt Engineering section
+✓ Contact section
+✓ Elegant animations
+✓ Smooth transitions
+✓ Accessibility best practices
+✓ Professional UI/UX
+✓ HTML5 + Tailwind CSS only
+✓ Well-commented code
+Do not skip any validation step. If any requirement is missing, improve the design before producing the final code.
+
