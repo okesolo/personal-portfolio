@@ -37,7 +37,7 @@
 
             <div>
 
-                <h1 class="text-xl font-bold text-white">
+                <h1 class="lg:text-xl text-sm font-bold text-white">
                     Okechukwu
                     <span class="text-violet-400">Solomon</span>
                 </h1>
@@ -45,13 +45,15 @@
                 <p class="text-xs text-slate-400">
                     Frontend Developer
                 </p>
-
             </div>
-
         </a>
+        <div class="bg-violet-500 md:hidden lg:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </div>
 
         <!-- Desktop Navigation -->
-        <ul class="hidden md:flex items-center gap-8 text-sm font-medium">
+        <ul class="hidden lg:flex items-center gap-8 text-sm font-medium">
+
 
             <li><a href="#home" class="relative text-slate-300 transition hover:text-violet-400 after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-violet-500 after:transition-all hover:after:w-full">Home</a></li>
 
@@ -81,8 +83,7 @@
 ======================================== -->
 <section
   id="home"
-  class="relative overflow-hidden bg-slate-950 pt-24 pb-24"
->
+  class="relative overflow-hidden bg-slate-950 pt-24 pb-24">
   <!-- Background Glow -->
   <div
     class="absolute right-0 top-20 h-125 w-125 rounded-full bg-violet-700/20 blur-[120px]"
@@ -145,7 +146,7 @@
         </a>
 
         <a
-          href="assets/resume/Okechukwu-Solomon-Resume.pdf"
+          href="/asset/Professional Resume Web Developer.png"
           download
           class="rounded-xl border border-slate-700 bg-slate-900 px-8 py-4 font-semibold text-white transition duration-300 hover:border-violet-500 hover:bg-slate-800"
         >
@@ -237,7 +238,7 @@
       <!-- Image -->
 
       <img
-        src="assets/images/profile.jpg"
+        src="/asset/hero.png.png"
         alt="Okechukwu Solomon"
         class="relative z-10 w-105 rounded-full object-cover drop-shadow-[0_35px_50px_rgba(0,0,0,.5)] transition duration-500 hover:scale-105"
       />
@@ -245,7 +246,7 @@
       <!-- Floating Card -->
 
       <div
-        class="absolute -right-7.5 top-20 z-20 w-64 rounded-2xl border border-slate-700 bg-slate-900/90 p-5 backdrop-blur-lg"
+        class="absolute hidden  lg:block right-0   top-70 z-20 w-64 rounded-2xl border border-slate-700 bg-slate-900/90 p-5 backdrop-blur-lg"
       >
 
         <p class="text-xs uppercase tracking-widest text-violet-400">
@@ -273,6 +274,9 @@
   </div>
 
 </section>
+
+
+
 <!-- ========================================
             ABOUT SECTION
 ======================================== -->
@@ -672,7 +676,7 @@
                     class="flex items-center justify-center bg-slate-800 p-8">
 
                     <img
-                        src="assets/images/project1.png"
+                        src="/asset/Portfolio Website.png"
                         alt="Portfolio Project"
                         class="rounded-2xl shadow-2xl">
 
@@ -820,7 +824,7 @@
                 class="group rounded-3xl border border-white/10 bg-slate-900 p-6 transition duration-300 hover:-translate-y-2 hover:border-violet-500">
 
                 <img
-                    src="assets/images/project4.png"
+                    src="/asset/children's shop.png"
                     alt="Project"
                     class="rounded-2xl">
 
@@ -1575,5 +1579,212 @@
     </div>
 
 </section>
+<!-- ========================================
+                FOOTER
+======================================== -->
+
+<footer class="border-t border-white/10 bg-slate-950">
+
+    <div class="mx-auto max-w-7xl px-6 py-16">
+
+        <!-- ================= Top ================= -->
+
+        <div
+            class="flex flex-col gap-12 lg:flex-row lg:items-start lg:justify-between">
+
+            <!-- Brand -->
+
+            <div class="max-w-md">
+
+                <a
+                    href="#home"
+                    class="text-3xl font-black text-white">
+
+                    Okechukwu
+                    <span class="text-violet-400">
+
+                        Solomon
+
+                    </span>
+
+                </a>
+
+                <p
+                    class="mt-6 leading-8 text-slate-400">
+
+                    Frontend Developer passionate about building
+                    responsive, accessible and visually engaging
+                    digital experiences with HTML5, Tailwind CSS
+                    and modern UI design.
+
+                </p>
+
+            </div>
+
+            <!-- Navigation -->
+
+            <div>
+
+                <h3
+                    class="text-lg font-semibold text-white">
+
+                    Quick Links
+
+                </h3>
+
+                <ul
+                    class="mt-5 space-y-3">
+
+                    <li>
+
+                        <a
+                            href="#home"
+                            class="text-slate-400 transition hover:text-violet-400">
+
+                            Home
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a
+                            href="#about"
+                            class="text-slate-400 transition hover:text-violet-400">
+
+                            About
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a
+                            href="#skills"
+                            class="text-slate-400 transition hover:text-violet-400">
+
+                            Skills
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a
+                            href="#projects"
+                            class="text-slate-400 transition hover:text-violet-400">
+
+                            Projects
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a
+                            href="#contact"
+                            class="text-slate-400 transition hover:text-violet-400">
+
+                            Contact
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- Connect -->
+
+            <div>
+
+                <h3
+                    class="text-lg font-semibold text-white">
+
+                    Connect
+
+                </h3>
+
+                <div
+                    class="mt-5 flex flex-col gap-3">
+
+                    <a
+                        href="https://github.com/yourusername"
+                        target="_blank"
+                        class="text-slate-400 transition hover:text-violet-400">
+
+                        GitHub
+
+                    </a>
+
+                    <a
+                        href="https://linkedin.com/in/yourusername"
+                        target="_blank"
+                        class="text-slate-400 transition hover:text-violet-400">
+
+                        LinkedIn
+
+                    </a>
+
+                    <a
+                        href="https://x.com/yourusername"
+                        target="_blank"
+                        class="text-slate-400 transition hover:text-violet-400">
+
+                        X (Twitter)
+
+                    </a>
+
+                    <a
+                        href="mailto:your@email.com"
+                        class="text-slate-400 transition hover:text-violet-400">
+
+                        Email
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- ================= Divider ================= -->
+
+        <div
+            class="my-10 h-px bg-white/10">
+
+        </div>
+
+        <!-- ================= Bottom ================= -->
+
+        <div
+            class="flex flex-col items-center justify-between gap-6 text-center sm:flex-row">
+
+            <p
+                class="text-sm text-slate-500">
+
+                © 2026 Okechukwu Solomon. All rights reserved.
+
+            </p>
+
+            <a
+                href="#home"
+                class="inline-flex items-center rounded-full border border-white/10 bg-slate-900 px-5 py-3 text-sm font-medium text-white transition duration-300 hover:-translate-y-1 hover:border-violet-500 hover:bg-violet-600">
+
+                ↑ Back to Top
+
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
 </body>
 </html>
